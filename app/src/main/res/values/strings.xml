@@ -1,4 +1,32 @@
 <resources>
     <string name="app_name">GovQuiz</string>
-    <string name="headder">How well do you know your government?</string>
+    <string name="header">How well do you know your government? Take this quiz!</string>
+
+    <!--Question 1 -->
+    <string name="question_one">What are the 3 branches of government?</string>
+    <string name="judicial">Judicial</string>
+    <string name="nominal">Nominal</string>
+    <string name="executive">Executive</string>
+    <string name="cooperative">Cooperative</string>
+    <string name="legislative">Legislative</string>
+
+    <!--Question 2 -->
+    <string name="question_two">How many electoral votes does it take to win the Presidency?</string>
+
+    <!--Question 3 -->
+    <string name="question_three">Which house of congress has 2 representatives per state?</string>
+    <string name="question_three_answer_one">House of Representatives</string>
+    <string name="question_three_answer_two">The Senate</string>
+
+    <!--Question 4 -->
+    <string name="question_four">How many representatives make up the two houses of Congress?</string>
+    <string name="question_four_answer_one">535 (100 Senate, 435 House)</string>
+    <string name="question_four_answer_two">200 (100 Senate, 100 House)</string>
+    <string name="question_four_answer_three">535 (435 Senate, 100 House)</string>
+
+    <!--Question 5 -->
+    <string name="question_five">For a bill to become a law, which house would it need to pass through first?</string>
+    <string name="question_five_answer_one">House of Reps</string>
+    <string name="question_five_answer_two">The Senate</string>
+
 </resources>
