@@ -29,4 +29,9 @@
     <string name="question_five_answer_one">House of Reps</string>
     <string name="question_five_answer_two">The Senate</string>
 
+    <!--Question 6 -->
+    <string name="question_six">If you don\'t vote, who wins?</string>
+    <string name="question_six_answer_one">The other guy</string>
+    <string name="question_six_answer_two">No one, we all lose</string>
+
 </resources>
