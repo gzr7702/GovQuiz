@@ -19,7 +19,7 @@
     <string name="question_three_answer_two">The Senate</string>
 
     <!--Question 4 -->
-    <string name="question_four">How many representatives make up the two houses of Congress?</string>
+    <string name="question_four">How many members make up the two houses of Congress?</string>
     <string name="question_four_answer_one">535 (100 Senate, 435 House)</string>
     <string name="question_four_answer_two">200 (100 Senate, 100 House)</string>
     <string name="question_four_answer_three">535 (435 Senate, 100 House)</string>
@@ -30,8 +30,11 @@
     <string name="question_five_answer_two">The Senate</string>
 
     <!--Question 6 -->
-    <string name="question_six">If you don\'t vote, who wins?</string>
+    <string name="question_six">If you don\'t vote, who loses?</string>
     <string name="question_six_answer_one">The other guy</string>
-    <string name="question_six_answer_two">No one, we all lose</string>
+    <string name="question_six_answer_two">We all do</string>
+    <string name="question_six_answer_three">Democracy</string>
+
+    <string name="submit_button_text">Submit</string>
 
 </resources>
