@@ -165,20 +165,21 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/question_three_answer_one"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/question_three_answer_one"/>
+                    <RadioButton
+                        android:id="@+id/question_three_house"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_three_answer_one"/>
 
-                <RadioButton
-                    android:id="@+id/question_three_answer_two"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/question_three_answer_two"/>
+                    <RadioButton
+                        android:id="@+id/question_three_senate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_three_answer_two"/>
+                </RadioGroup>
 
             </LinearLayout>
 
@@ -204,26 +205,27 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/question_four_answer_one"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/question_four_answer_one"/>
+                    <RadioButton
+                        android:id="@+id/question_four_answer_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_four_answer_one"/>
 
-                <RadioButton
-                    android:id="@+id/question_four_answer_two"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/question_four_answer_two"/>
+                    <RadioButton
+                        android:id="@+id/question_four_answer_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_four_answer_two"/>
 
-                <RadioButton
-                    android:id="@+id/question_four_answer_three"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/question_four_answer_three"/>
+                    <RadioButton
+                        android:id="@+id/question_four_answer_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_four_answer_three"/>
+                </RadioGroup>
 
             </LinearLayout>
 
@@ -249,20 +251,21 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/question_five_answer_one"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/question_five_answer_one"/>
+                    <RadioButton
+                        android:id="@+id/question_five_answer_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_five_answer_one"/>
 
-                <RadioButton
-                    android:id="@+id/question_five_answer_two"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/question_five_answer_two"/>
+                    <RadioButton
+                        android:id="@+id/question_five_answer_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_five_answer_two"/>
+                </RadioGroup>
 
             </LinearLayout>
 
