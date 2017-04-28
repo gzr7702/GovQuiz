@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Assign Views, only assign radio buttons that will be used
     // Question 1
-    @BindView(R.id.judicial_checkbox) CheckBox judicialCheckbox;
-    @BindView(R.id.nominal_checkbox) CheckBox nominalCheckbox;
-    @BindView(R.id.executive_checkbox) CheckBox executiveCheckbox;
-    @BindView(R.id.cooperative_checkbox) CheckBox cooperativeCheckbox;
-    @BindView(R.id.legislative_checkbox) CheckBox legislativeCheckbox;
+    @BindView(R.id.question_one_answer_one_check) CheckBox judicialCheckbox;
+    @BindView(R.id.question_one_answer_two_check) CheckBox nominalCheckbox;
+    @BindView(R.id.question_one_answer_three_check) CheckBox executiveCheckbox;
+    @BindView(R.id.question_one_answer_four_check) CheckBox cooperativeCheckbox;
+    @BindView(R.id.question_one_answer_five_check) CheckBox legislativeCheckbox;
 
     //Question 2
     @BindView(R.id.question2_answer_text) EditText electoralVotesText;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.question_four_answer_one) RadioButton questionFourButtonOne;
 
     // Question 5
-    @BindView(R.id.question_five_answer_one) RadioButton houseRadio2;
+    @BindView(R.id.question_five_answer_one) RadioButton houseRadio;
 
     // Question 1
     @BindView(R.id.question_six_answer_one) CheckBox otherCheckBox;
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void processQuestion5() {
-        if (houseRadio2.isChecked()) {
+        if (houseRadio.isChecked()) {
             mNumberCorrect++;
         }
     }
