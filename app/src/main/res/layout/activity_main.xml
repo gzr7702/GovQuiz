@@ -138,6 +138,7 @@
                     android:textSize="18sp"/>
 
                 <EditText
+                    android:id="@+id/question2_answer_text"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
             </LinearLayout>
@@ -317,7 +318,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:text="@string/submit_button_text"/>
+                android:text="@string/submit_button_text"
+                android:onClick="processAnswers"/>
 
         </LinearLayout>
 
