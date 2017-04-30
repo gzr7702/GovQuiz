@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void processQuestion2() {
-        String answer = electoralVotesText.getText().toString().toString();
+        String answer = electoralVotesText.getText().toString();
         if (answer.equals("240")) {
             mNumberCorrect++;
         }
